@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+.section1 img{
+  background-image: url("/public/bgimg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.section1 {
+  position: relative;
+}
+.section1 h3 {
+  position: absolute;
+  top: 70px;
+  left: 700px;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: Montserrat;
+  text-align: center;
+  color: #f6f6f6;
+}
+.section1 h1 {
+  position: absolute;
+  top: 130px;
+  left: 270px;
+  width: 900px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+.section1 p {
+  position: absolute;
+  top: 320px;
+  left: 500px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: #f6f6f6;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  position: absolute;
+  top: 400px;
+  left: 480px;
+}
+.button button{
+  width: 236px;
+  height: 68px;
+  border-radius: 30px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
+}
+.button button:focus {
+  background-color: #fa4a0c;
+  box-shadow: 0px 10px 30px 0px #b7322733;
+  border: none;
+}
+.imges img{
+    position: absolute;
+    top: 350px;
+    left: 350px;
+}
+.imges{
+    margin-bottom: 600px;
+}
