@@ -6,7 +6,6 @@ function Header() {
     <>
       <div className="container">
         <header>
-
           <div class="logo">
             <img src={logo} alt="" />
           </div>
@@ -21,9 +20,6 @@ function Header() {
         </header>
       </div >
     </>
-
-  
-
   );
 }
 
