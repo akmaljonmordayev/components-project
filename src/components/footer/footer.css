@@ -1,0 +1,23 @@
+
+footer{
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.img{
+    width: 150px;
+}
+
