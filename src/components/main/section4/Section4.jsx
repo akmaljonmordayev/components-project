@@ -5,7 +5,6 @@ function Section4() {
   return (
     <div className="body">
      <img src={ism} alt="" />
-
      <div className="logo">
       <h2 className="salom">Checkout</h2>
 <h1 className="qalesan">When you done check out
