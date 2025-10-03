@@ -2,10 +2,10 @@ import "./header.css"
 import logo from "/public/logo.png"
 function Header() {
   return (
+
     <>
       <div className="container">
         <header>
-
           <div class="logo">
             <img src={logo} alt="" />
           </div>
