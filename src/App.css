@@ -1,0 +1,62 @@
+.bgi {
+    background-image: url("./assets/logo.png");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 3rem;   
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem; 
+    margin-bottom: 30px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .button1, .button2 {
+    padding: 15px 35px;
+    font-size: 1.3rem;      
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button1 {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+  }
+  
+  .button1:hover {
+    background-color: #e63900;
+    color: white;
+    border: transparent;
+  }
+  
+  .button2 {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+  }
+  
+  .button2:hover {
+    background-color: #e63900;
+    color: white;
+    border: transparent;
+  }
+  
